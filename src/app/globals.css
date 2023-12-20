@@ -2,26 +2,150 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: 'Custom-1';
+}
+
+.contact-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/painting.jpg');
+}
+
+.hero-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/paint-house.jpg');
+  background-size: cover;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+/* font-family */
+
+@font-face {
+  font-family: 'Custom-1';
+  src: url("/fonts/GigaSansRegular.otf");
+}
+
+@font-face {
+  font-family: 'Custom-b';
+  src: url("/fonts/Locomotype  GigaSansBold.otf");
+}
+@font-face {
+  font-family: 'Custom-sb';
+  src: url("/fonts/Locomotype  GigaSansSemiBold.otf");
+}
+@font-face {
+  font-family: 'Custom-m';
+  src: url("/fonts/Locomotype  GigaSansMedium.otf");
+}
+
+@layer utilities {
+  
+  .max-container {
+    @apply mx-auto max-w-[1440px];
+  }
+
+  .container {
+    @apply max-w-[75rem] mx-auto py-0 px-[2rem]
+  }
+
+  .padding-container {
+    @apply px-6 lg:px-20 2xl:px-0;
+  }
+
+  /* Navlinks */
+
+  .nav-links {
+    @apply flex items-baseline gap-1 text-lg font-customm text-white hover:text-[#fff59d]
+  }
+
+  /* titles */
+
+  .heading-primary {
+    @apply text-[3rem] mb-[2rem] leading-[50px] tracking-tighter font-customb
+  }
+
+  .heading-secondary {
+    @apply text-[3rem] leading-tight mb-[2rem] font-bold font-customb
+}
+
+  /* FONTS */
+
+
+  .regular-64 {
+    @apply text-[64px] font-[400] leading-[120%];
+  }
+
+  .regular-40 {
+    @apply text-[40px] font-[400] leading-[120%];
+  }
+
+  .regular-32 {
+    @apply text-[32px] font-[400];
+  }
+
+  .regular-24 {
+    @apply text-[24px] font-[400];
+  }
+
+  .regular-20 {
+    @apply text-[20px] font-[400];
+  }
+
+  .regular-18 {
+    @apply text-[18px] font-[400];
+  }
+
+  .regular-16 {
+    @apply text-[16px] font-[400];
+  }
+
+  .regular-14 {
+    @apply text-[14px] font-[400];
+  }
+
+  .medium-14 {
+    @apply text-[14px] font-[600];
+  }
+
+  .bold-88 {
+    @apply text-[88px] font-[700] leading-[120%];
+  }
+
+  .bold-64 {
+    @apply text-[64px] font-[700] leading-[120%];
+  }
+
+  .bold-52 {
+    @apply text-[52px] font-[700] leading-[120%];
+  }
+
+  .bold-40 {
+    @apply text-[40px] font-[700] leading-[120%];
+  }
+
+  .bold-32 {
+    @apply text-[32px] font-[700] leading-[120%];
+  }
+
+  .bold-20 {
+    @apply text-[20px] font-[700];
+  }
+
+  .bold-18 {
+    @apply text-[18px] font-[700];
+  }
+
+  .bold-16 {
+    @apply text-[16px] font-[700];
+  }
+
 }
