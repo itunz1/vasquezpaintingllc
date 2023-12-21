@@ -4,7 +4,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <section className='pt-[3rem] pb-[6rem] hero-img items-center'>
+    <section className='pt-[3rem] pb-[6rem] hero-img items-center min-h-[70vh]'>
       <div className='w-[81rem] px-[2rem] grid grid-cols-2 gap-[6rem] items-center mx-auto'>
         <div className=''>
           <h1 className='text-white heading-primary'>Vasquezpaintingllc Delivering Immaculate Finishes, Every Time </h1>

@@ -17,8 +17,14 @@ body {
 }
 
 .hero-img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/paint-house.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/paint-brush.avif');
   background-size: cover;
+  background-position: center;
+}
+
+.feature-bg {
+  background-image: url('/brush-image.png');
+  /* background-position: right; */
 }
 
 .container {
@@ -50,7 +56,7 @@ body {
 @layer utilities {
   
   .max-container {
-    @apply mx-auto max-w-[1440px];
+    @apply mx-auto max-w-[1200px];
   }
 
   .container {

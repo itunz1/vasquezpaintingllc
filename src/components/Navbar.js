@@ -20,7 +20,7 @@ function Navbar() {
     const scrollPosition = useScrollPosition();
 
     return (
-        <Popover className={`${classNames(scrollPosition > 0 ? 'shadow' : 'shadow-none','transition-shadow sticky top-0 bg-[#252734] z-20')}`}
+        <Popover className={`${classNames(scrollPosition > 0 ? 'shadow' : 'shadow-none','transition-shadow sticky top-0 bg-[#252734] z-50')}`}
         >
             <div className='px-4 mx-auto sm:px-6'>
                 <div className='flex items-center justify-between sm:pr-10 sm:pl-5 md:space-x-10 min-h-[80px]'>
@@ -31,7 +31,7 @@ function Navbar() {
                             smooth={true}
                             offset={-70}
                             duration={800}>
-                            <img className='w-[150px]' src='/vasquez.png' alt='website logo'/>
+                            <img className='w-[150px] cursor-pointer' src='/vasquez.png' alt='website logo'/>
                         </Link>
                     </div>
 
@@ -42,7 +42,7 @@ function Navbar() {
                         </Popover.Button>
                     </div>
 
-                    <Popover.Group as='nav' className='hidden space-x-10 md:flex'>
+                    <Popover.Group as='nav' className='items-center hidden space-x-10 md:flex'>
                         <Link to="/"
                             spy={true}
                             smooth={true}
@@ -59,7 +59,7 @@ function Navbar() {
                             offset={-70}
                             duration={800}>
                             <span className='nav-links'><MdOutlineCleaningServices className='text-base' />
-                               <span><FormattedMessage id="menu.skills" defaultMessage="Service" /></span>
+                               <span><FormattedMessage id="menu.skills" defaultMessage="Services" /></span>
                             </span>
                         </Link>
 
@@ -79,7 +79,16 @@ function Navbar() {
                             offset={-20}
                             duration={800}>
                             <span className='nav-links'> <FaAddressBook className='text-sm' />
-                                <FormattedMessage id="menu.contactos" defaultMessage="Contacto" />
+                                <FormattedMessage id="menu.contactos" defaultMessage="Contact" />
+                            </span>
+                        </Link>
+                        <Link to="/"
+                            spy={true}
+                            smooth={true}
+                            offset={-20}
+                            duration={800}>
+                            <span className='inline-block px-5 py-2 mr-4 text-xl text-white bg-red-600 nav-links rounded-xl font-customm hover:bg-red-500'>
+                                <FormattedMessage id="menu.contactos" defaultMessage="Get Free Estimated" />
                             </span>
                         </Link>
                     </Popover.Group>

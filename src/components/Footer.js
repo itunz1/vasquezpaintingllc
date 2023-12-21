@@ -6,7 +6,7 @@ import React from 'react'
 function Footer() {
     return (
         <footer className='relative flex items-center justify-center overflow-hidden bg-green-app'>
-            <img className='absolute top-0' src='/white-paint-drops.png' alt='img'/>
+            <img className='absolute top-0' src='/white-paint-drops.png' alt='img' />
             <div className='mt-36 px-6 mx-auto lg:px-20 3xl:px-0 max-w-[1440px] flex w-full flex-col gap-14'>
                 <div className='flex flex-col items-start gap-[10%] md:flex-row'>
                     <Link href='/'>
@@ -28,11 +28,13 @@ function Footer() {
                                     <h4 className="font-bold whitespace-nowrap">Contact Us</h4>
                                     <div className="flex gap-4 md:flex-col">
                                         <p className='regular-14'>
-                                            Direccion
+                                            jm1vasquezpainting@gmail.com
                                         </p>
                                         <p className='regular-14'>
-                                            Email
-                                            Telefono
+                                            828-337-9938 Msg.Only
+                                        </p>
+                                        <p className='regular-14'>
+                                            828-476-7442 Calls & Msg
                                         </p>
                                     </div>
                                 </div>
