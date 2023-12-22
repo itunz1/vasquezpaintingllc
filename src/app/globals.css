@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+.slick-prev:before, .slick-next:before {
+  color: #09529b !important;
+}
+
 body {
   font-family: 'Custom-1';
 }
