@@ -7,14 +7,14 @@ import { BiBuildingHouse } from "react-icons/bi";
 function About() {
     return (
         <section className='py-24  bg-[#f7f7f7]'>
-            <div className='flex max-container pading-container'>
-                <div className='w-[65%] mr-16'>
-                    <div className='pl-4 pr-48 border-l-8 border-solid border-yellow-app'>
+            <div className='flex flex-col md:flex-row max-container pading-container'>
+                <div className='md:w-[65%] p-7 md:p-0 md:mr-16'>
+                    <div className='pl-4 border-l-8 border-solid md:pr-48 border-yellow-app'>
                         <div>
-                            <h1 className='text-7xl mb-[1rem] tracking-tighter font-customb'>About Our Painting Company</h1>
+                            <h1 className='text-4xl md:text-7xl mb-[1rem] tracking-tighter font-customb'>About Our Painting Company</h1>
                         </div>
                     </div>
-                    <div className='py-4 mb-4 text-[22px]'>
+                    <div className='py-4 mb-4 text-[18px] md:text-[22px]'>
                         <div >
                             We are a painting services company based in the US.
                             We offer a wide range of services, including exterior and interior painting,
@@ -26,9 +26,9 @@ function About() {
                     </div>
                 </div>
 
-                <div className='w-[35%]'>
+                <div className='md:w-[35%] p-7'>
                     <div>
-                        <h2 className='regular-32 leading-tight mb-[2rem] font-bold font-customb'>Key Aspects</h2>
+                        <h2 className='regular-32 leading-tight mb-[2rem] font-bold font-customb mt-14 md:mt-0'>Key Aspects</h2>
                     </div>
 
                     <div>

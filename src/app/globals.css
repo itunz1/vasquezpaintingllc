@@ -80,7 +80,7 @@ body {
   /* titles */
 
   .heading-primary {
-    @apply text-[3rem] mb-[2rem] leading-[50px] tracking-tighter font-customb
+    @apply text-4xl lg:text-[3rem] mb-[2rem] leading-[50px] tracking-tighter font-customb
   }
 
   .heading-secondary {

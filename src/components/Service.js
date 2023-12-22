@@ -20,7 +20,7 @@ function Service() {
                     <ul className="grid gap-10 mt-10 md:grid-cols-2 lg:mt-20 lg:gap-10">
                         <li className="flex flex-col items-start flex-1 w-full">
                             <div className="">
-                                <img className='w-[300px] h-[300px] rounded-[15px]' src='/InteriorExterior.jpg' alt='Interior and Exterior block image' />
+                                <img className='md:w-[300px] md:h-[300px] rounded-[15px]' src='/InteriorExterior.jpg' alt='Interior and Exterior block image' />
                             </div>
                             <h2 className="mt-5 capitalize bold-20 lg:bold-32">
                                 exterior and interior
@@ -32,7 +32,7 @@ function Service() {
                         </li>
                         <li className="flex flex-col items-start flex-1 w-full">
                             <div className="">
-                                <img className='w-[300px] h-[300px] rounded-[15px]' src='PressureWash.jpg' alt='Pressure wash block image' />
+                                <img className='md:w-[300px] md:h-[300px] rounded-[15px]' src='PressureWash.jpg' alt='Pressure wash block image' />
                             </div>
                             <h2 className="mt-5 capitalize bold-20 lg:bold-32">
                                 Pressure Wash
@@ -44,7 +44,7 @@ function Service() {
                         </li>
                         <li className="flex flex-col items-start flex-1 w-full">
                             <div className="">
-                                <img className='w-[300px] h-[300px] rounded-[15px]' src='New-Repaint.jpg' alt='New and repaint wash block image' />
+                                <img className='md:w-[300px] md:h-[300px] rounded-[15px]' src='New-Repaint.jpg' alt='New and repaint wash block image' />
                             </div>
                             <h2 className="mt-5 capitalize bold-20 lg:bold-32">
                                 New and repaint
@@ -56,7 +56,7 @@ function Service() {
                         </li>
                         <li className="flex flex-col items-start flex-1 w-full">
                             <div className="">
-                            <img className='w-[300px] h-[300px] rounded-[15px]' src='/Drywall.jpg' alt='Drywall block image' />
+                            <img className='md:w-[300px] md:h-[300px] rounded-[15px]' src='/Drywall.jpg' alt='Drywall block image' />
                             </div>
                             <h2 className="mt-5 capitalize bold-20 lg:bold-32">
                                 Drywall & Trim
