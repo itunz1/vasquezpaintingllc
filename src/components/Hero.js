@@ -5,7 +5,7 @@ import React from 'react'
 function Hero() {
   return (
     <section className='pt-[3rem] pb-[6rem] hero-img items-center min-h-[70vh]'>
-      <div className='w-[81rem] px-[2rem] grid grid-cols-2 gap-[6rem] items-center mx-auto'>
+      <div className='w-[90rem]  grid grid-cols-2 gap-[6rem] items-center mx-auto mt-12'>
         <div className=''>
           <h1 className='text-white heading-primary'>Vasquezpaintingllc Delivering Immaculate Finishes, Every Time </h1>
           <p className='mb-12 text-xl leading-tight text-gray-200'>With more than 10 years of experience we make look your house brand new. Painting More Than Just Walls we

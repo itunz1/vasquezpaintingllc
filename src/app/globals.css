@@ -17,7 +17,7 @@ body {
 }
 
 .hero-img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/paint-brush.avif');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/BACKGROUND-1.jpg');
   background-size: cover;
   background-position: center;
 }
