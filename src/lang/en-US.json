@@ -1,4 +1,46 @@
 {
-    "lol": "lol",
-    "asd": "asd"
+    "menu.about": "About",
+    "menu.services": "Services",
+    "menu.gallery": "Gallery",
+    "menu.contact": "Contact",
+    "menu.estimated": "Get Free Estimated",
+
+    "hero.title": "Vasquezpaintingllc Delivering Immaculate Finishes, Every Time",
+    "hero.subTitle": "With more than 10 years of experience we make look your house brand new. Painting More Than Just Walls we offer Pressure Wash, drywall & trim",
+    "hero.link1": "Get our services",
+    "hero.link2": "Learn more",
+    "hero.review": "Excellent Reviews",
+
+    "about.title": "About Our Painting Company",
+    "about.description": " We are a painting services company based in the US. We offer a wide range of services, including exterior and interior painting, pressure washing, and drywall repair.",
+    "about.link": "VIEW OUR WORK",
+    "about.subTitle": "Key Aspects",
+    "about.h4-1": "Quality of products and services",
+    "about.h4-1-description": "We offer high-quality products and services that meet the highest standards.",
+    "about.h4-2": "Experience and professionalism",
+    "about.h4-2-description": "Our team has extensive experience in the industry and is committed to customer satisfaction.",
+    "about.h4-3": "Attention to detail",
+    "about.h4-3-description": "We care about the details and strive to offer impeccable work........ asdasd asdas dasd asda sd as",
+
+    "service.title": "Our Features",
+    "service.subTitle1": "exterior and interior",
+    "service.subTitle1-description": "A fresh coat of paint to the exterior or interior of your home can make a dramatic difference. Will provide the highest quality results for your home.",
+    "service.subTitle2": "Pressure Wash",
+    "service.subTitle2-description": "Pressure wash is a vital step in painting the exterior of your home. We uses the process to remove mold, oil and old paint so new paint absorbs into your surface better.",
+    "service.subTitle3": "New and repaint",
+    "service.subTitle3-description": "we take pride in our level of attention to detail. We understand the importance of a job well done, so we give our full commitment to every project from start to finish.",
+    "service.subTitle4": "Drywall & Trim",
+    "service.subTitle4-description": "Whether your home has holes or requieres drywall repair, we will patch to create a flawless surface to paint on.",
+
+    "gallery.title": "Gallery",
+
+    "contact.title": "Contact Us",
+    "contact.description": "Get your house painting today, dont miss the opportunity to work with the bests in this area",
+    "contact.name": "Name",
+    "contact.email": "Email",
+    "contact.subject": "Subject",
+    "contact.message": "Message",
+    "contact.link": "Submit",
+    "name.error": "{error}",
+    "email.error": "{error}"
 }

@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
           <main className='relative overflow-hidden'>
             {children}
           </main>
-          <Footer/>
+          <Footer />
         </body>
       </LangProvider>
     </html>

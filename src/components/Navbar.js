@@ -1,15 +1,17 @@
 "use client"
-import { Fragment } from 'react';
+import { Fragment, useContext } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { RxHamburgerMenu } from 'react-icons/rx'
 import { AiOutlineClose } from 'react-icons/ai'
-import { FaRegUser, FaChalkboard, FaAddressBook, FaCode } from 'react-icons/fa';
+import { FaRegUser, FaAddressBook } from 'react-icons/fa';
 import { GrGallery } from "react-icons/gr";
 import { MdOutlineCleaningServices } from "react-icons/md";
 import { useScrollPosition } from '../components/hooks/useScrollPosition';
 import { Link } from "react-scroll";
 import { FormattedMessage } from 'react-intl';
-import Image from 'next/image';
+import { langContext } from './context/langContext';
+
+
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ');
@@ -18,22 +20,35 @@ function classNames(...classes) {
 function Navbar() {
 
     const scrollPosition = useScrollPosition();
+    const languaje = useContext(langContext);
+
+    const handleSelect = (e) => {
+        languaje.changeLang(e.target.value)
+    }
+
 
     return (
-        <Popover className={`${classNames(scrollPosition > 0 ? 'shadow' : 'shadow-none','transition-shadow sticky top-0 bg-[#252734] z-50')}`}
+        <Popover className={`${classNames(scrollPosition > 0 ? 'shadow' : 'shadow-none', 'transition-shadow sticky top-0 bg-[#252734] z-50')}`}
         >
             <div className='px-4 mx-auto sm:px-6'>
-                <div className='flex items-center justify-between sm:pr-10 sm:pl-5 md:space-x-10 min-h-[80px]'>
-                    <div className='flex justify-between lg:flex-1'>
+                <div className='flex items-center md:justify-between sm:pr-10 sm:pl-5 min-h-[80px]'>
+                    <div className='flex justify-between flex-1'>
                         <Link to="/"
                             className=''
                             spy={true}
                             smooth={true}
                             offset={-70}
                             duration={800}>
-                            <img className='w-[150px] cursor-pointer' src='/vasquez.png' alt='website logo'/>
+                            <img className='w-[150px] cursor-pointer' src='/vasquez.png' alt='website logo' />
                         </Link>
                     </div>
+
+                    <select onClick={e => handleSelect(e)} className='mr-5 text-xs rounded-md h-7'>
+                        <option value='en-US' className='text-xs'>
+                            en-US
+                        </option>
+                        <option value='es-MX' className='text-xs'>es-MX</option>
+                    </select>
 
                     <div className='-my-2 -mr-2 md:hidden'>
                         <Popover.Button className='flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500'>
@@ -42,8 +57,8 @@ function Navbar() {
                         </Popover.Button>
                     </div>
 
-                    <Popover.Group as='nav' className='items-center hidden space-x-10 md:flex'>
-                        <Link to="/"
+                    <Popover.Group as='nav' className='items-center hidden space-x-5 md:flex'>
+                        <Link to="about"
                             spy={true}
                             smooth={true}
                             offset={-70}
@@ -53,46 +68,45 @@ function Navbar() {
                             </span>
                         </Link>
 
-                        <Link to="/"
+                        <Link to="services"
                             spy={true}
                             smooth={true}
                             offset={-70}
                             duration={800}>
                             <span className='nav-links'><MdOutlineCleaningServices className='text-base' />
-                               <span><FormattedMessage id="menu.skills" defaultMessage="Services" /></span>
+                                <span><FormattedMessage id="menu.services" defaultMessage="Services" /></span>
                             </span>
                         </Link>
 
-                        <Link to="/"
+                        <Link to="gallery"
                             spy={true}
                             smooth={true}
                             offset={-20}
                             duration={800}>
                             <span className='nav-links'><GrGallery className='text-base' />
-                                <FormattedMessage id="menu.proyects" defaultMessage="Gallery" />
+                                <FormattedMessage id="menu.gallery" defaultMessage="Gallery" />
                             </span>
                         </Link>
 
-                        <Link to="/"
+                        <Link to="contact"
                             spy={true}
                             smooth={true}
                             offset={-20}
                             duration={800}>
                             <span className='nav-links'> <FaAddressBook className='text-sm' />
-                                <FormattedMessage id="menu.contactos" defaultMessage="Contact" />
+                                <FormattedMessage id="menu.contact" defaultMessage="Contact" />
                             </span>
                         </Link>
-                        <Link to="/"
+                        <Link to="contact"
                             spy={true}
                             smooth={true}
                             offset={-20}
                             duration={800}>
-                            <span className='inline-block px-5 py-2 mr-4 text-xl text-white bg-red-600 nav-links rounded-xl font-customm hover:bg-red-500'>
-                                <FormattedMessage id="menu.contactos" defaultMessage="Get Free Estimated" />
+                            <span className='inline-block px-5 py-2 mr-1 text-xl text-white bg-red-600 hover:text-white nav-links rounded-xl font-customm hover:bg-red-500'>
+                                <FormattedMessage id="menu.estimated" defaultMessage="Get Free Estimated" />
                             </span>
                         </Link>
                     </Popover.Group>
-
                 </div>
             </div>
 
@@ -110,7 +124,7 @@ function Navbar() {
                         <div className='px-5 pt-5 pb-6'>
                             <div className='flex items-center justify-between'>
                                 <div>
-                                    <span className='text-blue-500 shadow-[rgb(255 245 157)_0px_0px_10px] font-bold text-2xl cursor-pointer ml-5'>JL</span>
+                                    {/* <span className='text-blue-500 shadow-[rgb(255 245 157)_0px_0px_10px] font-bold text-2xl cursor-pointer ml-5'>JL</span> */}
                                 </div>
                                 <div className='-mr-2'>
                                     <Popover.Button className='inline-flex items-center justify-center p-2 mr-8 text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500'>
@@ -137,26 +151,26 @@ function Navbar() {
                                     </Popover.Button>
                                 </Link>
 
-                                <Link to="skills"
+                                <Link to="services"
                                     spy={true}
                                     smooth={true}
                                     offset={-70}
                                     duration={800}>
                                     <Popover.Button>
-                                        <span className='inline-flex items-center gap-1 text-lg font-medium text-black cursor-pointer hover:text-blue-400'><FaCode className='text-base' />
-                                            <FormattedMessage id="menu.skills" defaultMessage="Skills" />
+                                        <span className='inline-flex items-center gap-1 text-lg font-medium text-black cursor-pointer hover:text-blue-400'><MdOutlineCleaningServices className='text-base' />
+                                            <FormattedMessage id="menu.services" defaultMessage="Services" />
                                         </span>
                                     </Popover.Button>
                                 </Link>
 
-                                <Link to="proyects"
+                                <Link to="gallery"
                                     spy={true}
                                     smooth={true}
                                     offset={-20}
                                     duration={800}>
                                     <Popover.Button>
-                                        <span className='inline-flex items-center gap-1 text-lg font-medium text-black cursor-pointer hover:text-blue-400'><FaChalkboard className='text-base' />
-                                            <FormattedMessage id="menu.proyects" defaultMessage="Proyects" />
+                                        <span className='inline-flex items-center gap-1 text-lg font-medium text-black cursor-pointer hover:text-blue-400'><GrGallery className='text-base' />
+                                            <FormattedMessage id="menu.gallery" defaultMessage="Gallery" />
                                         </span>
                                     </Popover.Button>
                                 </Link>

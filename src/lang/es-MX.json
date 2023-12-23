@@ -1,4 +1,46 @@
 {
-    "lol": "lol",
-    "asd": "asd"
+    "menu.about": "Nosotros",
+    "menu.services": "Servicios",
+    "menu.gallery": "Galería",
+    "menu.contact": "Contacto",
+    "menu.estimated": "Obtén Estimado Gratis",
+
+    "hero.title": "Vasquezpaintingllc Ofreciendo acabados impecables siempre",
+    "hero.subTitle": "Con más de 10 años de experiencia hacemos que tu casa luzca como nueva. Pintamos más que solo paredes, ofrecemos lavado a presión, drywall y trim",
+    "hero.link1": "Obten Nuestros Servicios",
+    "hero.link2": "Mas Información",
+    "hero.review": "Excelentes Criticas",
+
+    "about.title": "Acerca de nuestra empresa de pintura",
+    "about.description": "Somos una empresa de servicios de pintura con sede en EE.UU. Ofrecemos una amplia gama de servicios, que incluyen pintura exterior e interior, lavado a presión y reparación de drywall",
+    "about.link": "NUESTRO TRABAJO",
+    "about.subTitle": "Aspectos Claves",
+    "about.h4-1": "Calidad de productos y servicios",
+    "about.h4-1-description": "Ofrecemos productos y servicios de alta calidad que cumplen con los más altos estándares.",
+    "about.h4-2": "Experiencia y profesionalismo",
+    "about.h4-2-description": "Nuestro equipo tiene una amplia experiencia en la industria y está comprometido con la satisfacción del cliente.",
+    "about.h4-3": "Atención a los detalles",
+    "about.h4-3-description": "Nos preocupamos por los detalles y nos esforzamos por ofrecer un trabajo impecable........ asdasd asdas dasd asda sd as",
+
+    "service.title": "Lo Que Ofrecemos",
+    "service.subTitle1": "Exteriores e interiores",
+    "service.subTitle1-description": "Una nueva capa de pintura en el exterior o el interior de su hogar puede marcar una diferencia dramática. Proporcionaremos resultados de la más alta calidad para su hogar.",
+    "service.subTitle2": "Lavado a presión ",
+    "service.subTitle2-description": "El lavado a presión es un paso vital para pintar el exterior de su hogar. Utilizamos el proceso para eliminar moho, aceite y pintura vieja para que la pintura nueva se adiera mejor en la superficie.",
+    "service.subTitle3": "Nueva o repintura",
+    "service.subTitle3-description": "Estamos orgullosos de nuestro nivel de atención al detalle. Entendemos la importancia del trabajo bien hecho, por eso damos todo nuestro compromiso a cada proyecto de principio a fin.",
+    "service.subTitle4": "Drywall y molduras",
+    "service.subTitle4-description": "Ya sea que su casa tenga agujeros o requiera reparación de paneles de yeso, lo parcharemos para crear una superficie impecable sobre la que pintar.",
+
+    "gallery.title": "Galería",
+
+    "contact.title": "Contactanos",
+    "contact.description": "Pinta tu casa hoy, no pierdas la oportunidad de trabajar con los mejores en esta área.",
+    "contact.name": "Nombre",
+    "contact.email": "Correo",
+    "contact.subject": "Asunto",
+    "contact.message": "Mensaje",
+    "contact.link": "Enviar",
+    "name.error": "{error}",
+    "email.error": "{error}"
 }
