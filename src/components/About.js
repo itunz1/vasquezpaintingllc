@@ -78,8 +78,8 @@ function About() {
                             </li>
 
                             <li className='flex'>
-                                <div>
-                                    <span className='mr-7'>
+                                <div className=''>
+                                    <span className=''>
                                         <LuPaintbrush2 className='w-[100%] h-auto text-[150px] text-yellow-app ' />
                                     </span>
                                 </div>

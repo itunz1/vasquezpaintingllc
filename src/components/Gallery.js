@@ -2,29 +2,31 @@
 import React from 'react'
 import { data } from '@/data/data';
 import { FormattedMessage } from 'react-intl';
+import GalleryModal from './GalleryModal';
+
 
 function Gallery() {
 
 
-  return (
-    <section className='py-24 bg-gradient-to-tr from-green-app to-greenLigth-app' id='gallery'>
-        <div className='flex flex-col'>
-            <div>
-                <h1 className='heading-primary'>
-                    <FormattedMessage id='gallery.title' defaultMessage="Gallery"/>
-                </h1>
-            </div>
-
-            <div className='grid grid-cols-4 gap-1 md:gap-5 md:px-32'>
-                {data?.map((item) => (
-                    <div className='shadow-xl rounded-[15px]' key={item.pic}>
-                        <img className='rounded-[15px]' src={item.pic} alt='gallery image'/>
+    return (
+        <section className='relative py-24 overflow-scroll scrollbar-hide bg-[#f7f7f7]' id='gallery'>
+            <div className='max-container'>
+                <div className='flex flex-col'>
+                    <div>
+                        <h1 className='w-max mb-16 heading-primary bg-cover bg-center bg-no-repeat bg-[url(/Green-Brush-bg.png)]'>
+                            <FormattedMessage id='gallery.title' defaultMessage="Gallery" />
+                        </h1>
                     </div>
-                ))}
+
+                    <div className='grid grid-cols-2 gap-1 mt-10 md:grid-cols-4 md:gap-5 md:px-32'>
+                        {data?.map((item) => (
+                            <GalleryModal key={item.pic} pic={item.pic} />
+                        ))}
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-  )
+        </section>
+    )
 }
 
 export default Gallery

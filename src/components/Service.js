@@ -13,7 +13,7 @@ function Service() {
                             <FormattedMessage id='service.title' defaultMessage="Our Features"/>
                         </h2>
                     </div>
-                    <ul className="grid gap-10 mt-10 md:grid-cols-2 lg:mt-20 lg:gap-10">
+                    <ul className="grid gap-20 mt-10 md:grid-cols-2 lg:mt-20 lg:gap-10">
                         <li className="flex flex-col items-start flex-1 w-full">
                             <div className="">
                                 <img className='md:w-[300px] md:h-[300px] rounded-[15px]' src='/InteriorExterior.jpg' alt='Interior and Exterior block image' />
