@@ -38,7 +38,7 @@ function Slider1() {
         <section className='min-h-[70vh] mx-auto pb-24' id="/" >
             <Slider {...settings}>
                 <div className='pt-[3rem] pb-[6rem] hero-img items-center min-h-[70vh]'>
-                    <div className='lg:w-[90rem] grid grid-cols-1 lg:grid-cols-2 gap-[6rem] items-center mx-auto mt-12'>
+                    <div className='px-5 lg:w-[90rem] grid grid-cols-1 lg:grid-cols-2 gap-[6rem] items-center mx-auto mt-12'>
                         <div className=''>
                             <h1 className='text-4xl text-center text-white lg:text-left heading-primary'>
                                 <FormattedMessage id='hero.title' defaultMessage='Title' />
@@ -48,7 +48,7 @@ function Slider1() {
                             </p>
                             <div className="flex flex-col justify-center gap-5 px-16 lg:px-0 md:flex-row lg:justify-start">
                                 <Link
-                                    className='relative z-50 flex justify-center px-8 py-3 text-xl text-white md:inline-block lg:mr-4 rounded-xl font-customm bg-green-app hover:bg-greenLigth-app'
+                                    className='relative z-50 flex justify-center px-8 py-3 text-xl text-white cursor-pointer md:inline-block lg:mr-4 rounded-xl font-customm bg-green-app hover:bg-greenLigth-app'
                                     to='contact'
                                     spy={true}
                                     smooth={true}
@@ -58,7 +58,7 @@ function Slider1() {
                                     <FormattedMessage id='hero.link1' defaultMessage="Get our services" />
                                 </Link>
                                 <Link
-                                    className='relative z-50 flex justify-center px-8 py-3 text-xl text-white md:inline-block rounded-xl font-customm bg-yellow-app hover:bg-yellowLigth-app'
+                                    className='relative z-50 flex justify-center px-8 py-3 text-xl text-white cursor-pointer md:inline-block rounded-xl font-customm bg-yellow-app hover:bg-yellowLigth-app'
                                     to='services'
                                     spy={true}
                                     smooth={true}

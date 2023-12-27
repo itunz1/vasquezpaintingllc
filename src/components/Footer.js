@@ -4,8 +4,8 @@ import { Link } from 'react-scroll'
 
 function Footer() {
     return (
-        <footer className='relative flex items-center justify-center overflow-hidden bg-greenLigth-app'>
-            <img className='absolute top-0' src='/white-paint-drops.png' alt='img' />
+        <footer className='relative flex items-center justify-center overflow-hidden lg:pt-[3vw] bg-greenLigth-app'>
+            <img className='absolute w-[100%] top-0' src='/white-paint-drops.png' alt='img' />
             <div className='mt-36 px-6 mx-auto lg:px-20 3xl:px-0 max-w-[1440px] flex w-full flex-col gap-14'>
                 <div className='flex flex-col items-start gap-[10%] md:flex-row'>
                     <Link className='mb-5 cursor-pointer'
