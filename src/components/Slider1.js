@@ -81,12 +81,12 @@ function Slider1() {
                         </div>
                     </div>
                 </div>
-                <div className="bg-[url(/banner-slider-1.jpg)] bg-no-repeat bg-cover bg-center min-h-[70vh]">
-
+                <div className="min-h-[70vh]">
+                    <Image src='/banner-slider-1.jpg' alt='banner logo' fill />
                 </div>
 
-                <div className="bg-[url(/banner-slider-2.jpg)] bg-no-repeat bg-cover bg-center min-h-[70vh]">
-
+                <div className="min-h-[70vh]">
+                    <Image src='/banner-slider-2.jpg' alt='banner logo 2' fill />
                 </div>
             </Slider>
         </section >

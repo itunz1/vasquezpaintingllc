@@ -8,8 +8,8 @@ import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Vasquespaintingllc',
-  description: 'Transform your walls with vibrant colors and expert finishes. Vasquespaintingllc offers professional painting services for residencial and comercial, delivering stunning results that last. Get a free estimate today!',
+  title: 'Vasques Painting LLC - Painting Services',
+  description: 'Vasquespaintingllc offers professional painting services for residencial and comercial. Get a free estimate today!',
 }
 
 export default function RootLayout({ children }) {

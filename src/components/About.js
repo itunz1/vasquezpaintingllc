@@ -52,9 +52,9 @@ function About() {
                                     </span>
                                 </div>
                                 <div className='pl-4'>
-                                    <h4 className='pb-1 regular-20 font-customm'>
+                                    <h3 className='pb-1 regular-20 font-customm'>
                                         <FormattedMessage id='about.h4-1' defaultMessage="Quality of products and services"/>
-                                    </h4>
+                                    </h3>
                                     <p className='text-[15px]'>
                                         <FormattedMessage id='about.h4-1-description' defaultMessage="We offer high-quality products and services that meet the highest standards."/>
                                     </p>
@@ -68,9 +68,9 @@ function About() {
                                     </span>
                                 </div>
                                 <div className='pl-4'>
-                                    <h4 className='pb-1 regular-20 font-customm'>
+                                    <h3 className='pb-1 regular-20 font-customm'>
                                         <FormattedMessage id='about.h4-2' defaultMessage="Experience and professionalism"/>
-                                    </h4>
+                                    </h3>
                                     <p className='text-[15px]'>
                                         <FormattedMessage id='about.h4-2-description' defaultMessage="Our team has extensive experience in the industry and is committed to customer satisfaction."/>
                                     </p>
@@ -84,9 +84,9 @@ function About() {
                                     </span>
                                 </div>
                                 <div className='pl-4'>
-                                    <h4 className='pb-1 regular-20 font-customm'>
+                                    <h3 className='pb-1 regular-20 font-customm'>
                                         <FormattedMessage id='about.h4-3' defaultMessage="Attention to detail"/>
-                                    </h4>
+                                    </h3>
                                     <p className='text-[15px]'>
                                         <FormattedMessage id='about.h4-3-description' defaultMessage="We care about the details and strive to offer impeccable work."/>
                                     </p>

@@ -27,7 +27,7 @@ body {
 }
 
 .feature-bg {
-  background-image: url('/brush-image.png');
+  background-image: url('/brush-image.png'), "sans-serif";
   /* background-position: right; */
 }
 

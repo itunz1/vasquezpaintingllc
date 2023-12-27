@@ -8,7 +8,7 @@ function GalleryModal({ pic }) {
     return (
         <div onClick={onOpen} className='relative'>
             <div className='cursor-pointer rounded-[15px] '>
-                <img className='rounded-[15px]' src={pic} alt='company photo' />
+                <img className='rounded-[15px] w-[100%] h-[100%]' src={pic} alt='company photo' />
             </div>
             <Modal
                 isOpen={isOpen}
@@ -23,7 +23,7 @@ function GalleryModal({ pic }) {
                 <ModalContent>
                     {(onClose) => (
                         <>
-                        <img src={pic} alt="company photo" />
+                        <img className='w-[100%] h-[100%]' src={pic} alt="company photo" />
                         </>
                     )}
                 </ModalContent>

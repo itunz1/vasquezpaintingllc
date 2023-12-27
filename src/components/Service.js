@@ -9,9 +9,9 @@ function Service() {
                 <div className="z-20 flex w-full flex-col lg:w-[100%]  bg-no-repeat bg-center">
                     <div className="relative">
                         <img className='w-[450px] h-[150px]' src='brush-image.png' alt='brush image'/>
-                        <h2 className="absolute top-12 heading-secondary">
+                        <h1 className="absolute top-12 heading-secondary">
                             <FormattedMessage id='service.title' defaultMessage="Our Features"/>
-                        </h2>
+                        </h1>
                     </div>
                     <ul className="grid gap-20 mt-10 md:grid-cols-2 lg:mt-20 lg:gap-10">
                         <li className="flex flex-col items-start flex-1 w-full">
