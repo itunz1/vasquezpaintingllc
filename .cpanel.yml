@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/aguilarpaintings/public_html/
+    - export DEPLOYPATH=/home/aguilarpaintings/repositories/vasquezpaintingllc/public_html/
     - /bin/cp -R .vscode $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
