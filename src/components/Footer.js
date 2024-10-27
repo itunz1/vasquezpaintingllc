@@ -4,7 +4,7 @@ import { Link } from 'react-scroll'
 
 function Footer() {
     return (
-        <footer className='relative flex items-center justify-center overflow-hidden lg:pt-[3vw] bg-greenLigth-app'>
+        <footer className='relative flex items-center justify-center overflow-hidden lg:pt-[3vw] bg-[#252734]'>
             <img className='absolute w-[100%] top-0' src='/white-paint-drops.png' alt='img' />
             <div className='mt-36 px-6 mx-auto lg:px-20 3xl:px-0 max-w-[1440px] flex w-full flex-col gap-14'>
                 <div className='flex flex-col items-start gap-[10%] md:flex-row'>
@@ -15,35 +15,35 @@ function Footer() {
                         offset={-70}
                         duration={800}
                     >
-                        <img className='w-[220px] h-[80px]' src='/vasquez.png' alt='company logo' />
+                        <img className='w-[220px] h-[150px]' src='/AGUILAR-PAINTING.png' alt='company logo' />
                     </Link>
                     <div>
                         <div className='flex flex-wrap gap-20 sm:justify-between md:flex-1'>
                             <div className="flex flex-col gap-5">
-                                <h4 className="font-bold whitespace-nowrap">Learn More</h4>
+                                <h2 className="font-bold text-white whitespace-nowrap">Learn More</h2>
                                 <ul className="flex flex-col gap-4 regular-14 text-gray-30">
                                     <Link
-                                        className='cursor-pointer'
+                                        className='text-white cursor-pointer'
                                         to='about'
                                         spy={true}
                                         smooth={true}
                                         offset={-70}
                                         duration={800}
                                     >
-                                        About Vasquespaintingllc
+                                        About
                                     </Link>
                                     <Link
-                                        className='cursor-pointer'
+                                        className='text-white cursor-pointer'
                                         to='contact'
                                         spy={true}
                                         smooth={true}
                                         offset={-70}
                                         duration={800}
                                     >
-                                        Contact Us
+                                        Contact
                                     </Link>
                                     <Link
-                                        className='cursor-pointer'
+                                        className='text-white cursor-pointer'
                                         to='services'
                                         spy={true}
                                         smooth={true}
@@ -53,7 +53,7 @@ function Footer() {
                                         Our services
                                     </Link>
                                     <Link
-                                        className='cursor-pointer'
+                                        className='text-white cursor-pointer'
                                         to='contact'
                                         spy={true}
                                         smooth={true}
@@ -66,17 +66,20 @@ function Footer() {
                             </div>
                             <div className="flex flex-col gap-5">
                                 <div className="flex flex-col gap-5">
-                                    <h4 className="font-bold whitespace-nowrap">Contact Us</h4>
+                                    <h2 className="font-bold text-white whitespace-nowrap">Contact Us</h2>
                                     <div className="flex flex-col gap-4">
-                                        <p className='regular-14'>
-                                            jm1vasquezpainting@gmail.com
+                                        <p className='mb-[-15px] text-white regular-14'>
+                                            Marvin Aguilar
                                         </p>
-                                        <p className='regular-14'>
-                                            828-337-9938 Msg.Only
+                                        <p className='italic text-white regular-14'>
+                                            Aguilarpainting100@gmail.com
                                         </p>
-                                        <p className='regular-14'>
+                                        <p className='text-white regular-14'>
+                                            (828) 273-1848
+                                        </p>
+                                        {/* <p className='text-white regular-14'>
                                             828-476-7442 Calls & Msg
-                                        </p>
+                                        </p> */}
                                     </div>
                                 </div>
                             </div>
@@ -85,7 +88,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="border bg-gray-20" />
-                <p className="w-full mb-12 text-center regular-14 text-gray-30">2023 Vasquezpaintingllc | All rights reserved</p>
+                <p className="w-full mb-12 text-center text-white regular-14">2024 AguilarpaintingservicesLLC | All rights reserved</p>
             </div>
         </footer>
     )

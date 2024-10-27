@@ -27,10 +27,10 @@ function Service() {
                         </li>
                         <li className="flex flex-col items-start flex-1 w-full">
                             <div className="">
-                                <img className='md:w-[300px] md:h-[300px] rounded-[15px]' src='PressureWash.jpg' alt='Pressure wash block image' />
+                                <img className='md:w-[300px] md:h-[300px] rounded-[15px]' src='Gutter-Cleaning.jpg' alt='Pressure wash block image' />
                             </div>
                             <h2 className="mt-5 capitalize bold-20 lg:bold-32">
-                                <FormattedMessage id='service.subTitle2' defaultMessage="Pressure Wash"/>
+                                <FormattedMessage id='service.subTitle2' defaultMessage="Gutter Cleaning"/>
                             </h2>
                             <p className="regular-18 mt-5 text-gray-30 lg:mt-[30px] lg:bg-none">
                                 <FormattedMessage id='service.subTitle2-description' defaultMessage="description 2"/>
@@ -56,6 +56,28 @@ function Service() {
                             </h2>
                             <p className="regular-18 mt-5 text-gray-30 lg:mt-[30px] lg:bg-none">
                                 <FormattedMessage id='service.subTitle4-description' defaultMessage="description 4"/>
+                            </p>
+                        </li>
+                        <li className="flex flex-col items-start flex-1 w-full">
+                            <div className="">
+                            <img className='md:w-[300px] md:h-[300px] rounded-[15px]' src='/popcorn-ceiling.webp' alt='Popcorn Removal block image' />
+                            </div>
+                            <h2 className="mt-5 capitalize bold-20 lg:bold-32">
+                                <FormattedMessage id='service.subTitle5' defaultMessage="Popcorn Removal"/>
+                            </h2>
+                            <p className="regular-18 mt-5 text-gray-30 lg:mt-[30px] lg:bg-none">
+                                <FormattedMessage id='service.subTitle5-description' defaultMessage="description 5"/>
+                            </p>
+                        </li>
+                        <li className="flex flex-col items-start flex-1 w-full">
+                            <div className="">
+                            <img className='md:w-[300px] md:h-[300px] rounded-[15px]' src='/demolition.png' alt='Drywall block image' />
+                            </div>
+                            <h2 className="mt-5 capitalize bold-20 lg:bold-32">
+                                <FormattedMessage id='service.subTitle6' defaultMessage="Demolition"/>
+                            </h2>
+                            <p className="regular-18 mt-5 text-gray-30 lg:mt-[30px] lg:bg-none">
+                                <FormattedMessage id='service.subTitle6-description' defaultMessage="description 6"/>
                             </p>
                         </li>
                     </ul>

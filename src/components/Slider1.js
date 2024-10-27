@@ -14,11 +14,11 @@ function Slider1() {
         className: "w-[100%] h-[100%]",
         dots: false,
         fade: true,
-        infinite: true,
+        infinite: false,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 3000,
         responsive: [
             {
@@ -26,7 +26,7 @@ function Slider1() {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 0,
-                    infinite: true,
+                    infinite: false,
                     dots: false,
                     autoplay: false,
                 },
@@ -35,7 +35,7 @@ function Slider1() {
     }
 
     return (
-        <section className='min-h-[70vh] mx-auto pb-24' id="/" >
+        <section className='min-h-[70vh] mx-auto' id="/" >
             <Slider {...settings}>
                 <div className='pt-[3rem] pb-[6rem] hero-img items-center min-h-[70vh]'>
                     <div className='px-5 lg:w-[90rem] grid grid-cols-1 lg:grid-cols-2 gap-[6rem] items-center mx-auto mt-12'>

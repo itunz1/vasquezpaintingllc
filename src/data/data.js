@@ -1,50 +1,38 @@
 export const data = [
     {
-        pic: '/FOTO-1.jpg'
+        pic: '/1.png'
     },
     {
-        pic: '/FOTO-2.jpg'
+        pic: '/2.jpg'
     },
     {
-        pic: '/FOTO-3.jpg'
+        pic: '/3.jpg'
     },
     {
-        pic: '/FOTO-4.jpg'
+        pic: '/4.jpg'
     },
     {
-        pic: '/FOTO-5.jpg'
+        pic: '/5.jpg'
     },
     {
-        pic: '/FOTO-6.jpg'
+        pic: '/6.jpg'
     },
     {
-        pic: '/FOTO-7.jpg'
+        pic: '/7.jpg'
     },
     {
-        pic: '/FOTO-8.jpg'
+        pic: '/8.jpg'
     },
     {
-        pic: '/FOTO-9.jpg'
+        pic: '/9.jpg'
     },
     {
-        pic: '/FOTO-10.jpg'
+        pic: '/10.jpg'
     },
     {
-        pic: '/FOTO-11.jpg'
+        pic: '/11.jpg'
     },
     {
-        pic: '/FOTO-12.jpg'
-    },
-    {
-        pic: '/FOTO-13.jpg'
-    },
-    {
-        pic: '/FOTO-14.jpg'
-    },
-    {
-        pic: '/FOTO-15.jpg'
-    },
-    {
-        pic: '/FOTO-16.jpg'
+        pic: '/12.jpg'
     },
 ]

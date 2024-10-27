@@ -3,7 +3,7 @@ import { Fragment, useContext } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { RxHamburgerMenu } from 'react-icons/rx'
 import { AiOutlineClose } from 'react-icons/ai'
-import { FaRegUser, FaAddressBook } from 'react-icons/fa';
+import { FaRegUser, FaAddressBook, FaPhoneAlt } from 'react-icons/fa';
 import { GrGallery } from "react-icons/gr";
 import { MdOutlineCleaningServices } from "react-icons/md";
 import { useScrollPosition } from '../components/hooks/useScrollPosition';
@@ -39,7 +39,7 @@ function Navbar() {
                             smooth={true}
                             offset={-70}
                             duration={800}>
-                            <img className='w-[150px] cursor-pointer' src='/vasquez.png' alt='website logo' />
+                            <img className='w-[150px] cursor-pointer' src='/AGUILAR-PAINTING.png' alt='website logo' />
                         </Link>
                     </div>
 
@@ -47,7 +47,9 @@ function Navbar() {
                         <option value='en-US' className='text-xs'>
                             en-US
                         </option>
-                        <option value='es-MX' className='text-xs'>es-MX</option>
+                        <option value='es-MX' className='text-xs'>
+                            es-MX
+                        </option>
                     </select>
 
                     <div className='-my-2 -mr-2 md:hidden'>
@@ -106,6 +108,8 @@ function Navbar() {
                                 <FormattedMessage id="menu.estimated" defaultMessage="Get Free Estimated" />
                             </span>
                         </Link>
+                        <span><FaPhoneAlt className='text-sm text-white' /></span>
+                        <span className='font-bold text-white'>+1-828-273-1848</span>
                     </Popover.Group>
                 </div>
             </div>
