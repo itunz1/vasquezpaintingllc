@@ -1,11 +1,13 @@
+name: Deploy to FTP
 on:
   push:
+    branches:
     - dev
-name: deploy web
 
 jobs:
   web-deploy:
-    name: deply
+    name: Deploy
+    runs-on: ubuntu-latest
     steps:
       - name: get last code
         uses: actions/checkout@v3
