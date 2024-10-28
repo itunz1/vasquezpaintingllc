@@ -17,12 +17,24 @@ body {
 }
 
 .contact-img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/painting.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/12.jpg');
 }
 
 .hero-img {
   background-image: url('/BACKGROUND-1.png');
   background-size: cover;
+  background-position: center;
+}
+.hero-img2 {
+  background-image: url('/BANNERS-SLIDER-WEB-AGUILAR-1.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero-img3 {
+  background-image: url('/BANNERS-SLIDER-WEB-AGUILAR-2.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
   background-position: center;
 }
 
@@ -64,7 +76,7 @@ body {
   }
 
   .container {
-    @apply max-w-[75rem] mx-auto py-0 px-[2rem]
+    @apply max-w-[75rem] mx-auto py-0 px-[2rem];
   }
 
   .padding-container {
@@ -74,7 +86,7 @@ body {
   /* Navlinks */
 
   .nav-links {
-    @apply flex items-baseline gap-1 text-lg font-customm text-white hover:text-greenLigth-app cursor-pointer
+    @apply flex items-baseline gap-1 text-lg font-customm text-white hover:text-yellowLigth-app cursor-pointer
   }
 
   /* titles */

@@ -186,7 +186,7 @@ function Contact() {
                             </div>
                         </form>
                     </div >
-                    <div className='w-[100%] h-[200px] rounded-t-[10px] md:w-auto md:h-auto contact-img md:bg-[url(/painting.jpg)] bg-cover md:rounded-r-[12px] md:col-span-2' role='img' aria-label='any'>
+                    <div className='w-[100%] h-[200px] rounded-t-[10px] bg-center md:w-auto md:h-auto contact-img md:bg-[url(/12.jpg)] bg-cover md:rounded-r-[12px] md:col-span-2' role='img' aria-label='any'>
 
                     </div>
                 </div>

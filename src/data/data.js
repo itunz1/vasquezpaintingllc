@@ -32,7 +32,4 @@ export const data = [
     {
         pic: '/11.jpg'
     },
-    {
-        pic: '/12.jpg'
-    },
 ]

@@ -16,7 +16,7 @@ function Service() {
                     <ul className="grid gap-20 mt-10 md:grid-cols-2 lg:mt-20 lg:gap-10">
                         <li className="flex flex-col items-start flex-1 w-full">
                             <div className="">
-                                <img className='md:w-[300px] md:h-[300px] rounded-[15px]' src='/InteriorExterior.jpg' alt='Interior and Exterior block image' />
+                                <img className='md:w-[300px] md:h-[300px] rounded-[15px]' src='/painting-1.jpg' alt='Interior and Exterior block image' />
                             </div>
                             <h2 className="mt-5 capitalize bold-20 lg:bold-32">
                                 <FormattedMessage id='service.subTitle1' defaultMessage="exterior and interior"/>
@@ -27,7 +27,7 @@ function Service() {
                         </li>
                         <li className="flex flex-col items-start flex-1 w-full">
                             <div className="">
-                                <img className='md:w-[300px] md:h-[300px] rounded-[15px]' src='Gutter-Cleaning.jpg' alt='Pressure wash block image' />
+                                <img className='md:w-[300px] md:h-[300px] rounded-[15px]' src='gutter-cleaning-1.jpg' alt='Pressure wash block image' />
                             </div>
                             <h2 className="mt-5 capitalize bold-20 lg:bold-32">
                                 <FormattedMessage id='service.subTitle2' defaultMessage="Gutter Cleaning"/>
@@ -38,10 +38,10 @@ function Service() {
                         </li>
                         <li className="flex flex-col items-start flex-1 w-full">
                             <div className="">
-                                <img className='md:w-[300px] md:h-[300px] rounded-[15px]' src='New-Repaint.jpg' alt='New and repaint wash block image' />
+                                <img className='md:w-[300px] md:h-[300px] rounded-[15px]' src='carpentry-repair-1.jpg' alt='New and repaint wash block image' />
                             </div>
                             <h2 className="mt-5 capitalize bold-20 lg:bold-32">
-                                <FormattedMessage id='service.subTitle3' defaultMessage="New and repaint"/>
+                                <FormattedMessage id='service.subTitle3' defaultMessage="Carpintry-repair"/>
                             </h2>
                             <p className="regular-18 mt-5 text-gray-30 lg:mt-[30px] lg:bg-none">
                                 <FormattedMessage id='service.subTitle3-description' defaultMessage="description 3"/>
@@ -49,7 +49,7 @@ function Service() {
                         </li>
                         <li className="flex flex-col items-start flex-1 w-full">
                             <div className="">
-                            <img className='md:w-[300px] md:h-[300px] rounded-[15px]' src='/Drywall.jpg' alt='Drywall block image' />
+                            <img className='md:w-[300px] md:h-[300px] rounded-[15px]' src='/Drywall-and-finishing-1.jpg' alt='Drywall block image' />
                             </div>
                             <h2 className="mt-5 capitalize bold-20 lg:bold-32">
                                 <FormattedMessage id='service.subTitle4' defaultMessage="Drywall & Trim"/>
@@ -60,7 +60,7 @@ function Service() {
                         </li>
                         <li className="flex flex-col items-start flex-1 w-full">
                             <div className="">
-                            <img className='md:w-[300px] md:h-[300px] rounded-[15px]' src='/popcorn-ceiling.webp' alt='Popcorn Removal block image' />
+                            <img className='md:w-[300px] md:h-[300px] rounded-[15px]' src='/Popcorn-Removal-1.jpg' alt='Popcorn Removal block image' />
                             </div>
                             <h2 className="mt-5 capitalize bold-20 lg:bold-32">
                                 <FormattedMessage id='service.subTitle5' defaultMessage="Popcorn Removal"/>
@@ -71,7 +71,7 @@ function Service() {
                         </li>
                         <li className="flex flex-col items-start flex-1 w-full">
                             <div className="">
-                            <img className='md:w-[300px] md:h-[300px] rounded-[15px]' src='/demolition.png' alt='Drywall block image' />
+                            <img className='md:w-[300px] md:h-[300px] rounded-[15px]' src='/Demolition-1.jpg' alt='Drywall block image' />
                             </div>
                             <h2 className="mt-5 capitalize bold-20 lg:bold-32">
                                 <FormattedMessage id='service.subTitle6' defaultMessage="Demolition"/>

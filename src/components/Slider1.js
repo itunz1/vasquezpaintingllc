@@ -14,11 +14,11 @@ function Slider1() {
         className: "w-[100%] h-[100%]",
         dots: false,
         fade: true,
-        infinite: false,
+        infinite: true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 3000,
         responsive: [
             {
@@ -26,9 +26,9 @@ function Slider1() {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 0,
-                    infinite: false,
+                    infinite: true,
                     dots: false,
-                    autoplay: false,
+                    autoplay: true,
                 },
             }
         ]
@@ -48,7 +48,7 @@ function Slider1() {
                             </p>
                             <div className="flex flex-col justify-center gap-5 px-16 lg:px-0 md:flex-row lg:justify-start">
                                 <Link
-                                    className='relative z-50 flex justify-center px-8 py-3 text-xl text-white cursor-pointer md:inline-block lg:mr-4 rounded-xl font-customm bg-green-app hover:bg-greenLigth-app'
+                                    className='relative z-50 flex justify-center px-8 py-3 text-xl text-white cursor-pointer md:inline-block lg:mr-4 rounded-xl font-customm bg-yellow-app hover:bg-yellowLigth-app'
                                     to='contact'
                                     spy={true}
                                     smooth={true}
@@ -81,12 +81,12 @@ function Slider1() {
                         </div>
                     </div>
                 </div>
-                <div className="min-h-[70vh]">
-                    <Image src='/banner-slider-1.jpg' alt='banner logo' fill />
+                <div className="min-h-[70vh] hero-img2">
+                    {/* <Image src='/BANNERS-SLIDER-WEB-AGUILAR-1.jpg' alt='banner logo' fill /> */}
                 </div>
 
-                <div className="min-h-[70vh]">
-                    <Image src='/banner-slider-2.jpg' alt='banner logo 2' fill />
+                <div className="min-h-[70vh] hero-img3">
+                    {/* <Image src='/BANNERS-SLIDER-WEB-AGUILAR-2.jpg' alt='banner logo 2' fill /> */}
                 </div>
             </Slider>
         </section >

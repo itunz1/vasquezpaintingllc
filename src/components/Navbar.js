@@ -28,7 +28,7 @@ function Navbar() {
 
 
     return (
-        <Popover className={`${classNames(scrollPosition > 0 ? 'shadow' : 'shadow-none', 'transition-shadow sticky top-0 bg-[#252734] z-50')}`}
+        <Popover className={`${classNames(scrollPosition > 0 ? 'shadow' : 'shadow-none', 'transition-shadow sticky top-0 bg-black z-50')}`}
         >
             <div className='px-4 mx-auto sm:px-6'>
                 <div className='flex items-center md:justify-between sm:pr-10 sm:pl-5 min-h-[80px]'>
@@ -104,7 +104,7 @@ function Navbar() {
                             smooth={true}
                             offset={-20}
                             duration={800}>
-                            <span className='inline-block px-5 py-2 mr-1 text-xl text-white bg-red-600 hover:text-white nav-links rounded-xl font-customm hover:bg-red-500'>
+                            <span className='inline-block px-5 py-2 mr-1 text-xl text-white bg-yellow-app hover:bg-yellowLigth-app hover:text-white nav-links rounded-xl font-customm '>
                                 <FormattedMessage id="menu.estimated" defaultMessage="Get Free Estimated" />
                             </span>
                         </Link>

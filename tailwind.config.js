@@ -25,7 +25,7 @@ module.exports = {
         'black-rgba': 'rgba(0, 0, 0, 0.6)',
         'green-app': '#689925',
         'greenLigth-app': '#8ec641',
-        'yellow-app': '#efa70f',
+        'yellow-app': '#d5a131',
         'yellowLigth-app': '#ffb61a',
       },
     },

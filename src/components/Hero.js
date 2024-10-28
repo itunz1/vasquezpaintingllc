@@ -11,7 +11,7 @@ function Hero() {
           <p className='mb-12 text-xl leading-tight text-gray-200'>With more than 10 years of experience we make look your house brand new. Painting More Than Just Walls we
             offer Pressure Wash, drywall & trim
           </p>
-          <Link className='inline-block px-8 py-3 mr-4 text-xl text-white rounded-xl font-customm bg-green-app hover:bg-greenLigth-app' href='/'>Get our services</Link>
+          <Link className='inline-block px-8 py-3 mr-4 text-xl text-white rounded-xl font-customm bg-yellow-app hover:bg-yellowLigth-app' href='/'>Get our services</Link>
           <Link className='inline-block px-8 py-3 text-xl text-white rounded-xl font-customm bg-yellow-app hover:bg-yellowLigth-app' href='/'>Learn more &darr;</Link>
           <div className="flex flex-wrap gap-5 my-11">
             <div className="flex items-center gap-2">
