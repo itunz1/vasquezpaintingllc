@@ -78,7 +78,7 @@ function Footer() {
                                             (828) 273-1848
                                         </p>
                                         {/* <p className='text-white regular-14'>
-                                            828-476-7442 Calls & Msg
+                                            828-476-7442 Calls & Msgs
                                         </p> */}
                                     </div>
                                 </div>
