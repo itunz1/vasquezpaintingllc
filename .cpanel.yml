@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/aguilarpaintings/public_html/
-    - /bin/rsync -av public/ $DEPLOYPATH
