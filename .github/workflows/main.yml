@@ -26,7 +26,8 @@ jobs:
 
       - name: Deploy Final
         uses: itunz1/FTP-Deploy-Action@v4.3.4
-          server: ${{ secrets.FTP_HOST }}
+        with:
+          server: ftp.aguilarpaintingservicesllc.com
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist
