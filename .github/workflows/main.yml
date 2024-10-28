@@ -1,13 +1,14 @@
 name: Deploy to FTP
+
 on:
   push:
     branches:
-    - dev
+      - main  # Adjust the branch name as needed
 
 jobs:
-  web-deploy:
-    name: Deploy
+  deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: get last code
         uses: actions/checkout@v3
