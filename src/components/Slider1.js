@@ -37,7 +37,7 @@ function Slider1() {
     return (
         <section className='min-h-[70vh] mx-auto' id="/" >
             <Slider {...settings}>
-                <div className='pt-[3rem] pb-[6rem] hero-img items-center min-h-[70vh]'>
+                <div className='pt-[3rem] hero-img items-center min-h-[70vh]'>
                     <div className='px-5 lg:w-[90rem] grid grid-cols-1 lg:grid-cols-2 gap-[6rem] items-center mx-auto mt-12'>
                         <div className=''>
                             <h1 className='text-4xl text-center text-white lg:text-left heading-primary'>
